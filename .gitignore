@@ -1,6 +1,13 @@
 # Node.js dependencies
 **/node_modules
 
+# Ignition build artifacts
+**/ignition/deployments/
+
+# TypeChain output
+typechain/
+typechain-types/
+
 # Next.js build output
 frontend/.next
 
