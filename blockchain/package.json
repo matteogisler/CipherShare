@@ -11,8 +11,12 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "ethers": "^5.8.0",
-    "hardhat": "^2.24.0"
+    "@nomicfoundation/hardhat-ignition": "^0.15.11",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^22.15.19",
+    "ethers": "^6.14.1",
+    "hardhat": "^2.24.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
