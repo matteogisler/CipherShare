@@ -14,7 +14,7 @@ const contractAddress = process.env.ACL_CONTRACT_ADDRESS!;
 const aclContract = new ethers.Contract(contractAddress, aclAbi, signer);
 
 function hashFileId(fileId: string): string {
-  return ethers.id(fileId); // keccak256 of UTF-8 string
+  return ethers.id(fileId);
 }
 
 export async function grantAccess(fileId: string, grantee: string): Promise<void> {
