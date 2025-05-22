@@ -49,3 +49,6 @@ ipfs_data
 
 # Mac system files
 ._*
+
+# Ignore generated Prisma client 
+**/generated/prisma/
