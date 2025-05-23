@@ -1,4 +1,4 @@
-import { Router, RequestHandler, Request, Response } from "express";
+import { Router, RequestHandler } from "express";
 import { db } from "../services/db";
 
 const router = Router();
