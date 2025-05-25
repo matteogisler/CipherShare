@@ -52,3 +52,7 @@ ipfs_data
 
 # Ignore generated Prisma client 
 **/generated/prisma/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
