@@ -28,7 +28,7 @@ const uploadHandler: RequestHandler = async (req, res) => {
     const newRecord = await db.file.create({
       data: {
         filename,
-        cid,
+        cid, 
         uploader,
         nonce,
         sealedKey,
