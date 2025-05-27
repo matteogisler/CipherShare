@@ -9,7 +9,7 @@ const provider = new ethers.JsonRpcProvider(process.env.HARDHAT_RPC_URL);
 // Signer: uses Hardhat accounts private key
 const signer = new ethers.Wallet(process.env.PRIVATE_KEY!, provider);
 
-// Contract instance
+// Contract instance 
 const contractAddress = process.env.ACL_CONTRACT_ADDRESS!;
 const aclContract = new ethers.Contract(contractAddress, aclAbi, signer);
 
