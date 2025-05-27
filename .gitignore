@@ -55,4 +55,4 @@ ipfs_data
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+next-env.d.ts 
