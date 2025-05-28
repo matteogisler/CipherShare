@@ -22,7 +22,7 @@ const grantAccessHandler: RequestHandler = async (req, res) => {
 // GET /acl/check-access
 const checkAccessHandler: RequestHandler = async (req, res) => {
   const fileId = req.query.fileId as string;
-  const user = req.query.user as string;
+  const user = req.query.user as string; 
   if (!fileId || !user) {
     res.status(400).json({ error: "Missing fileId or user" });
     return;
