@@ -7,7 +7,7 @@ const router = Router();
 const uploadHandler: RequestHandler = async (req, res) => {
   try {
     const {
-      filename,
+      filename, 
       cid,
       uploader,
       nonce,
