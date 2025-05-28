@@ -4,7 +4,7 @@ import { grantAccess, checkAccess } from "../services/acl";
 const router = Router();
 
 // POST /acl/grant-access
-const grantAccessHandler: RequestHandler = async (req, res) => {
+const grantAccessHandler: RequestHandler = async (req, res) => { 
   const { fileId, grantee } = req.body;
   if (!fileId || !grantee) {
     res.status(400).json({ error: "Missing fileId or grantee" });
