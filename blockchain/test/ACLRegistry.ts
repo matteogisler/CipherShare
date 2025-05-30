@@ -23,7 +23,7 @@ describe("Lock", function () {
     const Lock = await hre.ethers.getContractFactory("Lock");
     const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
 
-    return { lock, unlockTime, lockedAmount, owner, otherAccount };
+    return { lock, unlockTime, lockedAmount, owner, otherAccount }; 
   }
 
   describe("Deployment", function () {
